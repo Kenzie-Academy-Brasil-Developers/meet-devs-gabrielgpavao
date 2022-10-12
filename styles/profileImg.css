@@ -1,0 +1,26 @@
+.profile-img {
+    height: 45%;
+    border-radius: var(--radius-2) var(--radius-2) 0 0;
+    background-image: url(../assets/profile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-img button {
+    height: 28px;
+    width: 28px;
+    background: #212529;
+    border-radius: var(--radius-3);
+    position: relative;
+    left: 172px;
+    top: 16px;
+}
+
+.profile-img button img {
+    background-color: transparent;
+}
+
+.profile-img .favorite {
+    background: #D6336C;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/globalStyles.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/searchDev.css">
+  <link rel="stylesheet" href="./styles/mainList.css">
+  <link rel="stylesheet" href="./styles/profileImg.css">
+  <link rel="stylesheet" href="./styles/profileInfo.css">
+  
+  <script defer src="./scripts/api.js"></script>
+  <script defer src="./scripts/devCard.js"></script>
+  <script defer src="./pages/home/index.js"></script>
+  <title>Meet Devs</title>
+</head>
+
+<body>
+  <header class="container header">
+    <h1>Meet Devs</h1>
+    <nav class="nav-filter">
+      <button class="emphasis">Todos usuários</button>
+      <button>Meus Favoritos</button>
+    </nav>
+  </header>
+
+  <section class="container">
+    <label for="search" class="lupa">
+      <img src="../assets/search.svg" alt="">
+    </label>
+    <input type="search" id="search" placeholder="Pesquisar por um dev...">
+  </section>
+
+  <main>
+    <ul class="container devs-list">
+      <li class="dev-card">
+        <div class="profile-img">
+          <button id="favorite-button">
+            <img src="../assets/heart.svg" alt="">
+          </button>
+        </div>
+        <div class="info">
+          <h2>Gabriel Miranda</h2>
+          <p>5013 Woodland St</p>
+          <p>45 anos</p>
+          <button class="mail">
+            <img src="./assets/envelope.svg" alt="">
+          </button>
+          <button class="phone">
+            <img src="./assets/phone.svg" alt="">
+          </button>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+
+</html>

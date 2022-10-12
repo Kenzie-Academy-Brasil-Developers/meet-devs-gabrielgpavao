@@ -1,0 +1,15 @@
+main {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.devs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-2);
+}
+
+.dev-card {
+    width: 215px;
+    height: 334px;
+}

@@ -1,0 +1,16 @@
+.lupa img{
+    margin-left: 20px;
+    position: relative;
+    top: 36px;
+    
+}
+
+#search {
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+    background: var(--grey-1);
+    border: 2px solid var(--grey-3);
+    border-radius: var(--radius-2);
+    color: var(--white);
+}

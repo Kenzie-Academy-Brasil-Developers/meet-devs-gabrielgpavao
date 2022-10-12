@@ -1,0 +1,27 @@
+.info {
+    padding: var(--size-2);
+    background-color: var(--grey-1);
+    border-radius: 0 0 var(--radius-2)var(--radius-2);
+}
+
+.info h2 {
+    font-weight: var(--weight-1);
+    font-size: var(--size-2);
+    color: var(--grey-5);
+    margin-bottom: 24px;
+}
+
+.info p {
+    margin-bottom: 24px;
+    font-weight: var(--weight-3);
+    font-size: var(--size-4);
+    color: var(--grey-4);
+}
+
+.info button {
+    background: var(--grey-2);
+    border-radius: var(--radius-3);
+    height: 28px;
+    width: 28px;
+    margin-right: 8px;
+}
